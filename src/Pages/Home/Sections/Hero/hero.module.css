@@ -1,0 +1,32 @@
+.background_image_styles {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.hero_card {
+  max-width: 100%;
+  padding: 25px 35px;
+  background-color: #61dafb;
+}
+
+@media (min-width: 769px) {
+  .hero_card {
+    width: 630px;
+    height: auto;
+    background-color: #61dafb;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 50px;
+  }
+}
+
+.hero_card_text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1;
+  color: white;
+}
